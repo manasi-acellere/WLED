@@ -17,6 +17,11 @@ void colorFromUint32(uint32_t in, bool secondary)
     col[1] = in >> 8  & 0xFF;
     col[2] = in       & 0xFF;
   }
+  
+  char* m = (char*)malloc(100);
+    char* x = (char*)malloc(100);
+      char* xxx = (char*)malloc(100);
+  int temp;
 }
 
 //load a color without affecting the white channel

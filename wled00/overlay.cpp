@@ -16,6 +16,9 @@ void initCronixie()
     strip.getSegment(0).grouping = 1;
     cronixieInit = false; 
   }
+ 
+  int x;
+  int y = overlayCurrent * x;
 }
 
 
